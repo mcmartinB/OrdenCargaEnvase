@@ -2157,6 +2157,7 @@ begin
       end;
       nota_occ.Lines.Add('- EL CONDUCTOR CONFIRMA QUE LA MERCANCÍA VA SUJETA POR BARRAS.');
     end;
+    nota_occ.Lines.Add('- TEMPERATURA DE LA CARGA: CONFORME.');
 end;
 
 procedure TFOrdenCarga.dir_sum_occChange(Sender: TObject);
